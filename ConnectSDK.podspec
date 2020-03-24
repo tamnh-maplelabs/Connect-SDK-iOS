@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "7.1"
   s.source       = { :git => "https://github.com/mlabsco/Connect-SDK-iOS.git",
                      :tag => s.version,
-                     :submodules => false }
+                     :submodules => true }
 
   s.xcconfig = {
       "OTHER_LDFLAGS" => "$(inherited) -ObjC"
